@@ -52,6 +52,9 @@
   "config": {
     "ghooks": {
       "pre-commit": "npm run test:single "
+    },
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
     }
   },
   "babel": {
